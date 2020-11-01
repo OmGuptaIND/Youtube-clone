@@ -1,0 +1,14 @@
+.yt__suggestions__vedio{
+    width:150px;
+    margin-top: 2px;
+    cursor: pointer;
+  }
+.sg{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}  
+p{
+  cursor: pointer;
+  font-weight: bold;
+}

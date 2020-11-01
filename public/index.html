@@ -2,42 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link name="icon" href="data:image/png;base64,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">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Youtube App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    
+    <script src="../src/index.js" type="text/jsx"></script>
   </body>
 </html>
